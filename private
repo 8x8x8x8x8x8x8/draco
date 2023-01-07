@@ -44,7 +44,7 @@ local GunSettings = {
 
     ["Double-Barrel SG"] = { --// dh
 
-        ["FOV"] = 0
+        ["FOV"] = 13
 
     },
 
@@ -62,18 +62,18 @@ local GunSettings = {
 
     ["Revolver"] = {
 
-        ["FOV"] = 0
+        ["FOV"] = 10.2
     },
 
     ["SMG"] = {
 
-        ["FOV"] = 0
+        ["FOV"] = 9
 
     },
 
     ["Shotgun"] = {
 
-        ["FOV"] = 0
+        ["FOV"] = 15
 
     }
 
@@ -171,7 +171,7 @@ game:GetService("RunService").RenderStepped:Connect(function()
 
         else
 
-            Aiming.FOV = 0
+            Aiming.FOV = 15
 
         end
 
